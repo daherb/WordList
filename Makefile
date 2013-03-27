@@ -1,4 +1,4 @@
-all: unify intersect complement
+all: unify intersect complement approx
 
 unify: unify.cpp
 	g++ -o unify unify.cpp
